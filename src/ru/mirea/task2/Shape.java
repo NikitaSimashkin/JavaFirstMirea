@@ -5,7 +5,7 @@ public abstract class Shape{}
 class Square extends Shape{ // 1 задание
     int height;
 
-    Square(int height){
+    public Square(int height){
         this.height = height;
     }
 
